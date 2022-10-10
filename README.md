@@ -2,14 +2,14 @@
 
 > Frontend-> React JS
 
-> Backend-> Node JS & Express JSAC
+> Backend-> Node JS & Express JS
 
 > Database-> MongoDB
 
 ## Installation process
 1. #### clone the repo using this command
     ```bash
-    git clone https://github.com/ashraf-kabir/mern-ecommerce.git
+    git clone https://github.com/kushmahi21/e-commerce.git
     ```
 2. #### install npm packages
     1. install backend packages
@@ -22,7 +22,7 @@
     cd client
     npm install
     ```
-3. go to the parent folder of mern-ecommerce & create .env for connection, JWT_SECRET, BRAINTREE_MERCHANT_ID, BRAINTREE_PUBLIC_KEY and BRAINTREE_PRIVATE_KEY.
+3. go to the parent folder of mern-ecommerce & create .env for connection, JWT_SECRET.
 
     ```bash
     cd mern-ecommerce
@@ -34,9 +34,6 @@
     ```env
     MONGODB_URI=YOUR_MONGODB_URI
     JWT_SECRET=YOUR_JWT_SECRET
-    BRAINTREE_MERCHANT_ID=YOUR_BRAINTREE_MERCHANT_ID
-    BRAINTREE_PUBLIC_KEY=YOUR_BRAINTREE_PUBLIC_KEY
-    BRAINTREE_PRIVATE_KEY=YOUR_BRAINTREE_PRIVATE_KEY
     ```
 4.  create another .env file inside client directory for REACT_APP_API_URL.
 
@@ -80,5 +77,5 @@
     8. admin can view ordered products
     9. admin can change the status of a product (processing, shipped, delivered, etc.)
 
-6. <b>Deployed on</br> https://ecommerce-ak.herokuapp.com/ 
+6. <b>Deployed on</br> ------
 7. raise a star to support me
